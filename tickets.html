@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" charset="UTF-8">
+	<title>Tickets</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
+</head>
+
+<body>
+<div class="bg">
+<div class="flex">
+	
+<header>
+	"The journey is the destination"-Dan Eldon
+</header>
+
+
+<div class="flexcontainer">
+<div class="navigation">
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active href="tickets.html">Tickets</a></li>
+		<li><a href="adventure.html">Adventure</a></li>
+		<li><a href="package.html">Package</a></li>
+	</ul>
+</nav>
+</div>
+<div class="maintickets">
+<table id="table">
+	<tr>
+		<th><i class="fas fa-plane-departure"></i>  From</th>
+		<th><i class="fas fa-plane-departure"></i>  To</th>
+		<th>Price</th>
+		<th>Buy</th>
+	</tr>
+	<tr>
+		<td>London</td>
+		<td>New York   <i class="fab fa-youtube" onclick="newyork()"></i></td>
+		<td>249 $</td>
+		<td><i class="far fa-arrow-alt-circle-right"></i></td>
+	</tr>
+	<tr>
+		<td>Amsterdam</td>
+		<td>Sydney   <i class="fab fa-youtube" onclick="sydney()"></i></td>
+		<td>479 $</td>
+		<td><i class="far fa-arrow-alt-circle-right"></i></td>
+	</tr>
+	<tr>
+		<td>Berlin</td>
+		<td>Las Vegas   <i class="fab fa-youtube" onclick="lasvegas()"></i></td>
+		<td>310 $</td>
+		<td><i class="far fa-arrow-alt-circle-right"></i></td>
+	</tr>
+	<tr>
+		<td>Budapest</td>
+		<td>Perth   <i class="fab fa-youtube" onclick="perth()"></i></td>
+		<td>490 $</td>
+		<td><i class="far fa-arrow-alt-circle-right"></i></td>
+	</tr>
+	<tr>
+		<td>Rome</td>
+		<td>Tokyo   <i class="fab fa-youtube" onclick="tokyo()"></i></td>
+		<td>460 $</td>
+		<td><i class="far fa-arrow-alt-circle-right"></i></td>
+	</tr>
+</table>
+<iframe id="video" frameborder="0" allowfullscreen></iframe>
+<button id="button">X</button>
+</div>
+</div>
+
+
+<script type="text/javascript">
+	function newyork() {
+		document.getElementById("video").src = "https://www.youtube.com/embed/yD-CPM02GF0";
+		document.getElementById("video").style.display = "block";
+		document.getElementById("button").style.display = "block";
+		document.getElementById("table").style.display = "none";
+		button.onclick = function close() {
+			document.getElementById("video").style.display = "none";
+			document.getElementById("video").src = "none";
+			document.getElementById("button").style.display = "none";
+			document.getElementById("table").style.display = "";
+		}
+		}		
+	function sydney() {
+	    document.getElementById("video").src = "https://www.youtube.com/embed/5fpkXLUTBx0"
+	    document.getElementById("video").style.display = "block";
+		document.getElementById("button").style.display = "block";
+		document.getElementById("table").style.display = "none";
+		button.onclick = function close() {
+			document.getElementById("video").style.display = "none";
+			document.getElementById("video").src = "none";
+			document.getElementById("button").style.display = "none";
+			document.getElementById("table").style.display = "";
+		}
+	}
+	function lasvegas() {
+		document.getElementById("video").src = "https://www.youtube.com/embed/uG1qZlEtorM"
+		document.getElementById("video").style.display = "block";
+		document.getElementById("button").style.display = "block";
+		document.getElementById("table").style.display = "none";
+		button.onclick = function close() {
+			document.getElementById("video").style.display = "none";
+			document.getElementById("video").src = "none";
+			document.getElementById("button").style.display = "none";
+			document.getElementById("table").style.display = "";
+		}
+	}
+	function perth() {
+		document.getElementById("video").src = "https://www.youtube.com/embed/KYqT7icSzBY"
+		document.getElementById("video").style.display = "block";
+		document.getElementById("button").style.display = "block";
+		document.getElementById("table").style.display = "none";
+		button.onclick = function close() {
+			document.getElementById("video").style.display = "none";
+			document.getElementById("video").src = "none";
+			document.getElementById("button").style.display = "none";
+			document.getElementById("table").style.display = "";
+		}
+	}
+	function tokyo() {
+		document.getElementById("video").src = "https://www.youtube.com/embed/aDBRzCjxbj0"
+		document.getElementById("video").style.display = "block";
+		document.getElementById("button").style.display = "block";
+		document.getElementById("table").style.display = "none";
+		button.onclick = function close() {
+			document.getElementById("video").style.display = "none";
+			document.getElementById("video").src = "none";
+			document.getElementById("button").style.display = "none";
+			document.getElementById("table").style.display = "";
+		}
+	}
+</script>
+
+<footer>
+TRAVELS Agency<br>Dream Road 5<br>63000 South Place<br>Nowhereland
+</footer>
+
+</div>
+</div>
+</body>
+
+</html>
+
+
